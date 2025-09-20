@@ -1,3 +1,4 @@
+import AnimeCard from "../components/AnimeCard";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar" ; 
 
@@ -7,6 +8,8 @@ function HomePage() {
     <>
     <Navbar />
     <HeroSection />
+    
+    <AnimeCard />
 
     </>
   )

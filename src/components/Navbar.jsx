@@ -5,20 +5,17 @@ function Navbar() {
 
   return (
     <>
-    <nav className="w-full fixed top-0 left-0 z-50 px-4 sm:px-6 lg:px-[80px]">
+    <nav className="w-full absolute top-0 left-0 z-50 px-4 sm:px-6 lg:px-[80px]">
       <div className="max-w-8xl mx-auto flex justify-between items-center h-16">
         {/* Logo */}
         <div className="text-5xl font-bold text-red-600 font-[Grenze_Gotisch]">Zenith</div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6 text-white font-[Iceberg]">
-
-            <input
-            className="border border-white rounded-[2px] px-3  text-white"
-            type="text"
-            placeholder="Search"
-          />
-          <a href="#" className="hover:text-red-600">Home</a>
+        <div className="border border-white px-[10px] rounded-[3px]">
+        <input className="rounded-[2px] px-3  text-white outline-none" type="text" placeholder="Search"/> <i class="ri-search-line"></i>
+        </div>
+          <a href="#" className="hover:text-red-600"> Home</a>
           <a href="#" className="hover:text-red-600">Explore</a>
           <a href="#" className="hover:text-red-600">Subscriptions</a>
           <a href="#" className="hover:text-red-600">History</a>
